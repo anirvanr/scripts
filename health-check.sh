@@ -1,7 +1,7 @@
 #!/bin/bash
 ##---------- Purpose : To quickly check and report health status in a linux system.----------##
 ##---------- Tested on : RHEL7/6/5/, SLES12/11, Ubuntu14, Mint16, Boss6(Debian) variants.----##
-##---------- Updated version : v1.0 (Updated on 25th-June-2017) -----------------------------##
+##---------- Updated version : v1.0 (Updated on 5th-Dec-2018) -----------------------------##
 ##-----NOTE: This script requires root privileges, otherwise you could run the script -------##
 ##---- as a sudo user who got root privileges. ----------------------------------------------##
 ##----------- "sudo /bin/bash <ScriptName>" -------------------------------------------------##
