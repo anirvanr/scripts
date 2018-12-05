@@ -130,7 +130,7 @@ paste -d"\t" /tmp/s1.out /tmp/s3.out|column -t
 #--------Check for RAM Utilization--------#
 printf '\n\e[1;34m%-6s\e[m\n' "Checking Memory Usage Details"
 echo -e "( 0-95% = OK/HEALTHY, 95-98% = WARNING, 98-100% = CRITICAL )"
-printf '\e[1;34m%-6s\e[m\n' "$D"
+printf '\e[1;34m%-6s\e[m\n' "$D$D"
 
 #Set default values
 optMW=95
