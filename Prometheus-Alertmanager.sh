@@ -82,7 +82,7 @@ receivers:
     send_resolved: true
  "
 
-  echo "(2/2)Setup complete.
+echo "(2/2)Setup complete.
 Alter the following config in /etc/prometheus/prometheus.yml:
 
 alerting:
