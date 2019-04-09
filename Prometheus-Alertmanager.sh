@@ -39,7 +39,7 @@ After=network.target
 User=alertmanager
 Group=alertmanager
 Type=simple
-ExecStart=/usr/local/bin/alertmanager \
+ExecStart=/usr/local/sbin/alertmanager \
     --config.file /etc/alertmanager/alertmanager.yml \
     --storage.path /var/lib/alertmanager/data
 Restart=always
