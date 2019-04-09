@@ -22,12 +22,12 @@ chown -R alertmanager:alertmanager /etc/alertmanager
 chown -R alertmanager:alertmanager /var/lib/alertmanager
 
 # copy binaries
-cp alertmanager /usr/local/bin/
-cp amtool /usr/local/bin/
+cp alertmanager /usr/local/sbin/
+cp amtool /usr/local/sbin/
 
 # set ownership
-chown alertmanager:alertmanager /usr/local/bin/alertmanager
-chown alertmanager:alertmanager /usr/local/bin/amtool
+chown alertmanager:alertmanager /usr/local/sbin/alertmanager
+chown alertmanager:alertmanager /usr/local/sbin/amtool
 
 # setup systemd
 echo '[Unit]
