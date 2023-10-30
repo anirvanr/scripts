@@ -14,3 +14,9 @@ The uuid module is part of Python's standard library, so you don't need to insta
 
 **Install OS**:
 The os module is also part of Python's standard library, so there is no need to install it separately. You can import and use it directly in your Python code.
+
+`s3_report_download.sh` script is created to streamline the process of fetching AWS cost report data stored in an Amazon S3 bucket. It initiates a user prompt for specifying the start month and year, computes the corresponding date range, and subsequently retrieves the "DynaCostReport-00001.csv" file from the S3 bucket.
+
+`print_tota.py` script scans the current directory for Excel files (files with a .xlsx extension), calculates the total sum of values in the 'lineItem/UnblendedCost' column across all the Excel files. Finally, it prints the total unblended cost obtained by summing these values.
+
+`split.py` script takes a dataset in CSV format and performs various data processing tasks. It filters, groups, and organizes the data, then saves the results as Excel files. 
